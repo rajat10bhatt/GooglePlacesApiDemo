@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3399BFCA120BDB8C686DDF06 /* Pods_GoogleSDk__demoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B851B140F6260C3D235242D9 /* Pods_GoogleSDk__demoUITests.framework */; };
+		71B898C35CDD8894A2D98FCF /* Pods_GoogleSDk__demoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DC015D29EB6F617F49090E85 /* Pods_GoogleSDk__demoTests.framework */; };
+		80E79FEE834EA2E2BC9CCD92 /* Pods_GoogleSDk__demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DA130BB28DD8AEF769390E /* Pods_GoogleSDk__demo.framework */; };
 		B6D598991F15EA92009446BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D598981F15EA92009446BA /* AppDelegate.swift */; };
 		B6D5989B1F15EA92009446BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D5989A1F15EA92009446BA /* ViewController.swift */; };
 		B6D5989E1F15EA92009446BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D5989C1F15EA92009446BA /* Main.storyboard */; };
@@ -15,6 +18,7 @@
 		B6D598A61F15EA92009446BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6D598A41F15EA92009446BA /* LaunchScreen.storyboard */; };
 		B6D598B11F15EA92009446BA /* GoogleSDk__demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D598B01F15EA92009446BA /* GoogleSDk__demoTests.swift */; };
 		B6D598BC1F15EA93009446BA /* GoogleSDk__demoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D598BB1F15EA93009446BA /* GoogleSDk__demoUITests.swift */; };
+		B6D598CA1F15FA68009446BA /* SearchLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D598C91F15FA68009446BA /* SearchLocationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6016030F34DC5704F00522B9 /* Pods-GoogleSDk_ demoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSDk_ demoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSDk_ demoTests/Pods-GoogleSDk_ demoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		90DA130BB28DD8AEF769390E /* Pods_GoogleSDk__demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSDk__demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9401E526D4C207379358DB85 /* Pods-GoogleSDk_ demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSDk_ demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSDk_ demo/Pods-GoogleSDk_ demo.release.xcconfig"; sourceTree = "<group>"; };
+		B174A7E9BCF34DFDE1FC4B3D /* Pods-GoogleSDk_ demoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSDk_ demoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSDk_ demoUITests/Pods-GoogleSDk_ demoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		B6D598951F15EA92009446BA /* GoogleSDk_ demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GoogleSDk_ demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D598981F15EA92009446BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6D5989A1F15EA92009446BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -49,6 +57,12 @@
 		B6D598B71F15EA93009446BA /* GoogleSDk_ demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GoogleSDk_ demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D598BB1F15EA93009446BA /* GoogleSDk__demoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSDk__demoUITests.swift; sourceTree = "<group>"; };
 		B6D598BD1F15EA93009446BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6D598C91F15FA68009446BA /* SearchLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchLocationViewController.swift; sourceTree = "<group>"; };
+		B851B140F6260C3D235242D9 /* Pods_GoogleSDk__demoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSDk__demoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C7C2684FAF76ED370FBAA250 /* Pods-GoogleSDk_ demoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSDk_ demoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSDk_ demoTests/Pods-GoogleSDk_ demoTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3B307D8A9DC13A9FD98932C /* Pods-GoogleSDk_ demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSDk_ demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSDk_ demo/Pods-GoogleSDk_ demo.debug.xcconfig"; sourceTree = "<group>"; };
+		DC015D29EB6F617F49090E85 /* Pods_GoogleSDk__demoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoogleSDk__demoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46A913EA568E08468F6DBC6 /* Pods-GoogleSDk_ demoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoogleSDk_ demoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoogleSDk_ demoUITests/Pods-GoogleSDk_ demoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E79FEE834EA2E2BC9CCD92 /* Pods_GoogleSDk__demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71B898C35CDD8894A2D98FCF /* Pods_GoogleSDk__demoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3399BFCA120BDB8C686DDF06 /* Pods_GoogleSDk__demoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +100,8 @@
 				B6D598AF1F15EA92009446BA /* GoogleSDk_ demoTests */,
 				B6D598BA1F15EA93009446BA /* GoogleSDk_ demoUITests */,
 				B6D598961F15EA92009446BA /* Products */,
+				F5F60D7417905E5CD631F3BA /* Pods */,
+				C9FE76381517312A748B92CD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,6 +125,7 @@
 				B6D598A41F15EA92009446BA /* LaunchScreen.storyboard */,
 				B6D598A71F15EA92009446BA /* Info.plist */,
 				B6D5989F1F15EA92009446BA /* GoogleSDk__demo.xcdatamodeld */,
+				B6D598C91F15FA68009446BA /* SearchLocationViewController.swift */,
 			);
 			path = "GoogleSDk_ demo";
 			sourceTree = "<group>";
@@ -128,6 +148,29 @@
 			path = "GoogleSDk_ demoUITests";
 			sourceTree = "<group>";
 		};
+		C9FE76381517312A748B92CD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90DA130BB28DD8AEF769390E /* Pods_GoogleSDk__demo.framework */,
+				DC015D29EB6F617F49090E85 /* Pods_GoogleSDk__demoTests.framework */,
+				B851B140F6260C3D235242D9 /* Pods_GoogleSDk__demoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F5F60D7417905E5CD631F3BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D3B307D8A9DC13A9FD98932C /* Pods-GoogleSDk_ demo.debug.xcconfig */,
+				9401E526D4C207379358DB85 /* Pods-GoogleSDk_ demo.release.xcconfig */,
+				6016030F34DC5704F00522B9 /* Pods-GoogleSDk_ demoTests.debug.xcconfig */,
+				C7C2684FAF76ED370FBAA250 /* Pods-GoogleSDk_ demoTests.release.xcconfig */,
+				E46A913EA568E08468F6DBC6 /* Pods-GoogleSDk_ demoUITests.debug.xcconfig */,
+				B174A7E9BCF34DFDE1FC4B3D /* Pods-GoogleSDk_ demoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +178,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6D598C01F15EA93009446BA /* Build configuration list for PBXNativeTarget "GoogleSDk_ demo" */;
 			buildPhases = (
+				26DBD8D6FC50ECB6F7D67A64 /* [CP] Check Pods Manifest.lock */,
 				B6D598911F15EA92009446BA /* Sources */,
 				B6D598921F15EA92009446BA /* Frameworks */,
 				B6D598931F15EA92009446BA /* Resources */,
+				AFC3593B75E92034D4C0C4FF /* [CP] Embed Pods Frameworks */,
+				738114036302BCBCEF098436 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +198,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6D598C31F15EA93009446BA /* Build configuration list for PBXNativeTarget "GoogleSDk_ demoTests" */;
 			buildPhases = (
+				DE9CDE9E49C0B6DC587E6543 /* [CP] Check Pods Manifest.lock */,
 				B6D598A81F15EA92009446BA /* Sources */,
 				B6D598A91F15EA92009446BA /* Frameworks */,
 				B6D598AA1F15EA92009446BA /* Resources */,
+				0DD8761B71EB89B7927225D8 /* [CP] Embed Pods Frameworks */,
+				974E9493C16B2C8FBF24A167 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B6D598C61F15EA93009446BA /* Build configuration list for PBXNativeTarget "GoogleSDk_ demoUITests" */;
 			buildPhases = (
+				820F6E4D41D0D77581FF3A05 /* [CP] Check Pods Manifest.lock */,
 				B6D598B31F15EA93009446BA /* Sources */,
 				B6D598B41F15EA93009446BA /* Frameworks */,
 				B6D598B51F15EA93009446BA /* Resources */,
+				88CFBD36BCF9C2800E67E3E2 /* [CP] Embed Pods Frameworks */,
+				B18BB8E78EA4B549555DEFD4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,6 +306,144 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DD8761B71EB89B7927225D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSDk_ demoTests/Pods-GoogleSDk_ demoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		26DBD8D6FC50ECB6F7D67A64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		738114036302BCBCEF098436 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSDk_ demo/Pods-GoogleSDk_ demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		820F6E4D41D0D77581FF3A05 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		88CFBD36BCF9C2800E67E3E2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSDk_ demoUITests/Pods-GoogleSDk_ demoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		974E9493C16B2C8FBF24A167 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSDk_ demoTests/Pods-GoogleSDk_ demoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFC3593B75E92034D4C0C4FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSDk_ demo/Pods-GoogleSDk_ demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B18BB8E78EA4B549555DEFD4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoogleSDk_ demoUITests/Pods-GoogleSDk_ demoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9CDE9E49C0B6DC587E6543 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B6D598911F15EA92009446BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -262,6 +452,7 @@
 				B6D598A11F15EA92009446BA /* GoogleSDk__demo.xcdatamodeld in Sources */,
 				B6D5989B1F15EA92009446BA /* ViewController.swift in Sources */,
 				B6D598991F15EA92009446BA /* AppDelegate.swift in Sources */,
+				B6D598CA1F15FA68009446BA /* SearchLocationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +527,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -391,6 +584,8 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
@@ -421,6 +616,7 @@
 		};
 		B6D598C11F15EA93009446BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3B307D8A9DC13A9FD98932C /* Pods-GoogleSDk_ demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GoogleSDk_ demo/Info.plist";
@@ -434,6 +630,7 @@
 		};
 		B6D598C21F15EA93009446BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9401E526D4C207379358DB85 /* Pods-GoogleSDk_ demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "GoogleSDk_ demo/Info.plist";
@@ -447,6 +644,7 @@
 		};
 		B6D598C41F15EA93009446BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6016030F34DC5704F00522B9 /* Pods-GoogleSDk_ demoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -462,6 +660,7 @@
 		};
 		B6D598C51F15EA93009446BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7C2684FAF76ED370FBAA250 /* Pods-GoogleSDk_ demoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +676,7 @@
 		};
 		B6D598C71F15EA93009446BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E46A913EA568E08468F6DBC6 /* Pods-GoogleSDk_ demoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "GoogleSDk_ demoUITests/Info.plist";
@@ -491,6 +691,7 @@
 		};
 		B6D598C81F15EA93009446BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B174A7E9BCF34DFDE1FC4B3D /* Pods-GoogleSDk_ demoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = "GoogleSDk_ demoUITests/Info.plist";
@@ -522,6 +723,7 @@
 				B6D598C21F15EA93009446BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6D598C31F15EA93009446BA /* Build configuration list for PBXNativeTarget "GoogleSDk_ demoTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +732,7 @@
 				B6D598C51F15EA93009446BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B6D598C61F15EA93009446BA /* Build configuration list for PBXNativeTarget "GoogleSDk_ demoUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +741,7 @@
 				B6D598C81F15EA93009446BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
